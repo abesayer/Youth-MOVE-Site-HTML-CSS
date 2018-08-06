@@ -1,0 +1,251 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  padding-bottom: 6px;
+}
+
+.nav-grid {
+  display: grid;
+  grid-template-rows: 20px;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+nav li {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  display: inline-block;
+  width: 100px;
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center;
+}
+
+.dropdown {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content li {
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 auto;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+main h1 {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  margin-top: 0px;
+  padding-top: 70px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  opacity: .6;
+
+}
+
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.pvd-img {
+  height: 600px;
+  background-image: url("https://media.tvnewscheck.com/wp/content/uploads/sites/3/2017/08/PVD.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.btn-main {
+  background-color: red;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 4.0px;
+  padding: 25px 45px;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: .88;
+
+}
+
+.btn-default {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/*Block division*/
+
+.supporting {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.supporting img {
+  height: 32px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.supporting a {
+  background-color: white;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333333;
+}
+
+@media (max-width: 500px) {
+  main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+}
+
+/*Block division*/
+
+.about {
+    background-image: url("https://c8bfad4f8d300370c1df-856548549593eecfeb5ad80ae0272b8c.ssl.cf1.rackcdn.com/properties/photos/1169159_40_1501433128.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+
+
+}
+
+.about h1{
+    color: white;
+    padding-top: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    letter-spacing: 3.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.about p {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 20px;
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Block Division*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  position: fixed;
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
